@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>weather app</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="current-info">
+            <div class="date-container">
+                <div class="time" id="time">
+                    12:30 <span id="am-pm">PM</span>
+                </div>
+                <div class="date" id="date">
+                    monday,24 may
+                </div>
+                <div class="other" id="current-weather-items">
+
+
+                </div>
+            </div>
+            <div class="place-container">
+                <div class="time-zone" id="time-zone"><i class="fas fa-map-marker-alt icon"></i>ASIA/KOLKATA</div>
+                <div id="country" class="country">IN</div>
+            </div>
+        </div>
+
+    </div>
+    <div class="future-forecast">
+        <div class="today" id="current-temp">
+            <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+            <div class="others">
+                <div class="day">monday</div>
+                <div class="temp">night-25.6&#176; C </div>
+                <div class="temp">day-35.6&#176; C </div>
+            </div>
+
+        </div>
+        <div class="weather-forecast" id="weather-forecast">
+            <div class="weather-forecast-item">
+                <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+                <div class="day">Tuesday</div>
+                <div class="temp">night-25.6&#176; C </div>
+                <div class="temp">day-35.6&#176; C </div>
+            </div>
+            <div class="weather-forecast-item">
+                <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+                <div class="day">wednesday</div>
+                <div class="temp">night-25.6&#176; C </div>
+                <div class="temp">day-35.6&#176; C </div>
+            </div>
+            <div class="weather-forecast-item">
+                <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+                <div class="day">Thursday</div>
+                <div class="temp">night-25.6&#176; C </div>
+                <div class="temp">day-35.6&#176; C </div>
+            </div>
+            <div class="weather-forecast-item">
+                <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+                <div class="day">friday</div>
+                <div class="temp">night-25.6&#176; C </div>
+                <div class="temp">day-35.6&#176; C </div>
+            </div>
+            <div class="weather-forecast-item">
+                <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+                <div class="day">saturday</div>
+                <div class="temp">night-25.6&#176; C </div>
+                <div class="temp">day-35.6&#176; C </div>
+            </div>
+            <div class="weather-forecast-item">
+                <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+                <div class="day">sunday</div>
+                <div class="temp">night-25.6&#176; C </div>
+                <div class="temp">day-35.6&#176; C </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"
+        integrity="sha512-QoJS4DOhdmG8kbbHkxmB/rtPdN62cGWXAdAFWWJPvUFF1/zxcPSdAnn4HhYZSIlVoLVEJ0LesfNlusgm2bPfnA=="
+        crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
